@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C32BB8C8E79CB1C29EB6F64 /* FlowEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7571EA9BD00EB18908599D /* FlowEngine.swift */; };
+		49FDD282BD506728AAA2B416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE7E67CC8F68B7BE94D9E7 /* Assets.xcassets */; };
+		5DAF6DA79E016A9F7367DB85 /* OnboardingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3B8610BDDB01E42CFDE90 /* OnboardingState.swift */; };
+		69E483C24D22F56B2A555E9F /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21057521C2F06E540B48072 /* Money.swift */; };
+		AC29C8D2ABBF39F48CF2C3CE /* FintechTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C96F2F3C2968BDFB06F43C /* FintechTheme.swift */; };
+		C3F619BC79DA610CF4E7CEF2 /* VaultFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CFD5C65E07AA173A53F541 /* VaultFlowTests.swift */; };
+		CC8F77ED6B02EA34AD0C6458 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35C3D3CF18312B29BF04EF /* OnboardingView.swift */; };
+		D0910C0B41E014AB14B77748 /* VaultFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49C26091E31FC51C2B0CE8 /* VaultFlowApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CD1FF2F82EBD3E70AACCD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C8BF498D37F4B785D92109E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4566C34E1046FB736C1739AA;
+			remoteInfo = VaultFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AE7E67CC8F68B7BE94D9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11C96F2F3C2968BDFB06F43C /* FintechTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechTheme.swift; sourceTree = "<group>"; };
+		1C61CDB1D88290C3F18ED038 /* VaultFlow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VaultFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D35C3D3CF18312B29BF04EF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		62CFD5C65E07AA173A53F541 /* VaultFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultFlowTests.swift; sourceTree = "<group>"; };
+		78D3B8610BDDB01E42CFDE90 /* OnboardingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingState.swift; sourceTree = "<group>"; };
+		7A49C26091E31FC51C2B0CE8 /* VaultFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultFlowApp.swift; sourceTree = "<group>"; };
+		7A7571EA9BD00EB18908599D /* FlowEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowEngine.swift; sourceTree = "<group>"; };
+		A21F75DFAC279D6761E38435 /* VaultFlowTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VaultFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62866B309C474F5D9666C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F21057521C2F06E540B48072 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		44434F4988C2A6EC488DDF9B /* VaultFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				62CFD5C65E07AA173A53F541 /* VaultFlowTests.swift */,
+			);
+			path = VaultFlowTests;
+			sourceTree = "<group>";
+		};
+		6EDBAB0C4A8D218B56967EB5 /* VaultFlow */ = {
+			isa = PBXGroup;
+			children = (
+				03AE7E67CC8F68B7BE94D9E7 /* Assets.xcassets */,
+				11C96F2F3C2968BDFB06F43C /* FintechTheme.swift */,
+				A62866B309C474F5D9666C5A /* Info.plist */,
+				F21057521C2F06E540B48072 /* Money.swift */,
+				7A49C26091E31FC51C2B0CE8 /* VaultFlowApp.swift */,
+				DB6179D33C03B2BC68DA2210 /* Flow */,
+				945CC9ACFA1819E2551BA71B /* Views */,
+			);
+			path = VaultFlow;
+			sourceTree = "<group>";
+		};
+		82C8C5AF2D9D25EE5781F63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C61CDB1D88290C3F18ED038 /* VaultFlow.app */,
+				A21F75DFAC279D6761E38435 /* VaultFlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945CC9ACFA1819E2551BA71B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D35C3D3CF18312B29BF04EF /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB6179D33C03B2BC68DA2210 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				7A7571EA9BD00EB18908599D /* FlowEngine.swift */,
+				78D3B8610BDDB01E42CFDE90 /* OnboardingState.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		EA243C70FD07FDB1A02DE7C6 = {
+			isa = PBXGroup;
+			children = (
+				6EDBAB0C4A8D218B56967EB5 /* VaultFlow */,
+				44434F4988C2A6EC488DDF9B /* VaultFlowTests */,
+				82C8C5AF2D9D25EE5781F63D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4566C34E1046FB736C1739AA /* VaultFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49709072485B09265BA441AA /* Build configuration list for PBXNativeTarget "VaultFlow" */;
+			buildPhases = (
+				D8D466ADB9EB8ED63C6DD23C /* Sources */,
+				9B9153E1122BC2F135AC4085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaultFlow;
+			packageProductDependencies = (
+			);
+			productName = VaultFlow;
+			productReference = 1C61CDB1D88290C3F18ED038 /* VaultFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E1956AE26405F3C7B47B9D5 /* VaultFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1989E4B84241FC72E7CD293 /* Build configuration list for PBXNativeTarget "VaultFlowTests" */;
+			buildPhases = (
+				6C76875A60A86C3314B46004 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A684D2A960BFA00C7D46E77B /* PBXTargetDependency */,
+			);
+			name = VaultFlowTests;
+			packageProductDependencies = (
+			);
+			productName = VaultFlowTests;
+			productReference = A21F75DFAC279D6761E38435 /* VaultFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C8BF498D37F4B785D92109E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4566C34E1046FB736C1739AA = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					9E1956AE26405F3C7B47B9D5 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C93BF3C3F34576181802DC32 /* Build configuration list for PBXProject "VaultFlow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EA243C70FD07FDB1A02DE7C6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 82C8C5AF2D9D25EE5781F63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4566C34E1046FB736C1739AA /* VaultFlow */,
+				9E1956AE26405F3C7B47B9D5 /* VaultFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B9153E1122BC2F135AC4085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDD282BD506728AAA2B416 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C76875A60A86C3314B46004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F619BC79DA610CF4E7CEF2 /* VaultFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D466ADB9EB8ED63C6DD23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC29C8D2ABBF39F48CF2C3CE /* FintechTheme.swift in Sources */,
+				1C32BB8C8E79CB1C29EB6F64 /* FlowEngine.swift in Sources */,
+				69E483C24D22F56B2A555E9F /* Money.swift in Sources */,
+				5DAF6DA79E016A9F7367DB85 /* OnboardingState.swift in Sources */,
+				CC8F77ED6B02EA34AD0C6458 /* OnboardingView.swift in Sources */,
+				D0910C0B41E014AB14B77748 /* VaultFlowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A684D2A960BFA00C7D46E77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4566C34E1046FB736C1739AA /* VaultFlow */;
+			targetProxy = 3CD1FF2F82EBD3E70AACCD29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE4870D369288520FCAF884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		208917595003E9C9DE45864D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VaultFlow/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock VaultFlow with Face ID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepak.portfolio.vaultflow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37DECAF13780EE101AE0D8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VaultFlow/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock VaultFlow with Face ID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepak.portfolio.vaultflow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CFEBEA0CD5DDB3D99FE31D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepak.portfolio.VaultFlowTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaultFlow.app/VaultFlow";
+			};
+			name = Release;
+		};
+		A10A7CDF25989FC28E04FBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BD1A89E5107E9419CA132191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepak.portfolio.VaultFlowTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaultFlow.app/VaultFlow";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49709072485B09265BA441AA /* Build configuration list for PBXNativeTarget "VaultFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DECAF13780EE101AE0D8A8 /* Debug */,
+				208917595003E9C9DE45864D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1989E4B84241FC72E7CD293 /* Build configuration list for PBXNativeTarget "VaultFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1A89E5107E9419CA132191 /* Debug */,
+				5CFEBEA0CD5DDB3D99FE31D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C93BF3C3F34576181802DC32 /* Build configuration list for PBXProject "VaultFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE4870D369288520FCAF884 /* Debug */,
+				A10A7CDF25989FC28E04FBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C8BF498D37F4B785D92109E /* Project object */;
+}
