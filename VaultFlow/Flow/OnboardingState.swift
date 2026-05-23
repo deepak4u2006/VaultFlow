@@ -8,5 +8,7 @@ struct OnboardingState: FlowState {
     var step: OnboardingStep = .welcome
     var name = ""
     var verified = false
+    var pin = ""
     var pinSet = false
+    var pinError: String?
 }
